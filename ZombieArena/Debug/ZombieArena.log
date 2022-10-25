@@ -1,0 +1,41 @@
+﻿  player.cpp
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(5,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(6,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(18,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(19,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(38,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(39,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(130,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(134,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(138,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(142,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(146,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(153,31): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\jackd\source\repos\ZombieArena\player.cpp(158,36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  ZombieArena.cpp
+  Generating Code...
+  ZombieArena.vcxproj -> C:\Users\jackd\source\repos\ZombieArena\Debug\ZombieArena.exe
