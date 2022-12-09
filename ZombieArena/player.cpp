@@ -1,19 +1,25 @@
 #include "player.h"
+#include <math.h>       /* atan2 */
+#include "textureHolder.h"
+
 
 Player::Player() {
+
 	m_Speed = START_SPEED;
 	m_Health = START_HEALTH;
 	m_MaxHealth = START_HEALTH;
 
 	// Associate a texture with the sprite
-	m_Texture.loadFromFile("graphics/player.png");
-	m_Sprite.setTexture(m_Texture);
+	m_Sprite = Sprite(TextureHolder::GetTexture("graphics/player.png"));
+
 
 	// Set the origin of the sprite to the centre for smooth rotation
 	m_Sprite.setOrigin(25, 25);
+
 }
 
 void Player::spawn(IntRect arena, Vector2f resolution, int tileSize) {
+
 	// Place the player in the middle of the arena
 	m_Position.x = arena.width / 2;
 	m_Position.y = arena.height / 2;
@@ -33,7 +39,8 @@ void Player::spawn(IntRect arena, Vector2f resolution, int tileSize) {
 	m_Resolution.y = resolution.y;
 }
 
-void Player::resetPlayerStats() {
+void Player::resetPlayerStats()
+{
 	m_Speed = START_SPEED;
 	m_Health = START_HEALTH;
 	m_MaxHealth = START_HEALTH;
@@ -79,9 +86,8 @@ void Player::moveLeft() {
 }
 
 void Player::moveRight() {
-	m_LeftPressed = true;
+	m_RightPressed = true;
 }
-
 void Player::moveUp() {
 	m_UpPressed = true;
 }
@@ -93,20 +99,18 @@ void Player::moveDown() {
 void Player::stopLeft() {
 	m_LeftPressed = false;
 }
-
 void Player::stopRight() {
 	m_RightPressed = false;
 }
-
 void Player::stopUp() {
 	m_UpPressed = false;
 }
-
 void Player::stopDown() {
 	m_DownPressed = false;
 }
 
 void Player::update(float elapsedTime, Vector2i mousePosition) {
+
 	if (m_UpPressed) {
 		m_Position.y -= m_Speed * elapsedTime;
 	}
@@ -133,7 +137,6 @@ void Player::update(float elapsedTime, Vector2i mousePosition) {
 	if (m_Position.x < m_Arena.left + m_TileSize) {
 		m_Position.x = m_Arena.left + m_TileSize;
 	}
-
 	if (m_Position.y > m_Arena.height - m_TileSize) {
 		m_Position.y = m_Arena.height - m_TileSize;
 	}
@@ -141,24 +144,28 @@ void Player::update(float elapsedTime, Vector2i mousePosition) {
 	if (m_Position.y < m_Arena.top + m_TileSize) {
 		m_Position.y = m_Arena.top + m_TileSize;
 	}
-	
+
 	// Calculate the angle the player is facing
-	float angle = (atan2(mousePosition.y - m_Resolution.y / 2, mousePosition.x - m_Resolution.x / 2) * 180) / 3.141;
+	float angle = (atan2(mousePosition.y - m_Resolution.y / 2,
+		mousePosition.x - m_Resolution.x / 2) * 180) / 3.141;
 
 	m_Sprite.setRotation(angle);
 }
 
-void Player::upgradeSpeed() {
+void Player::upgradeSpeed()
+{
 	// 20% speed upgrade
 	m_Speed += (START_SPEED * .2);
 }
 
-void Player::upgradeHealth() {
+void Player::upgradeHealth()
+{
 	// 20% max health upgrade
 	m_MaxHealth += (START_HEALTH * .2);
 }
 
-void Player::increaseHealthLevel(int amount) {
+void Player::increaseHealthLevel(int amount)
+{
 	m_Health += amount;
 
 	// But not beyond the maximum
@@ -166,3 +173,5 @@ void Player::increaseHealthLevel(int amount) {
 		m_Health = m_MaxHealth;
 	}
 }
+
+

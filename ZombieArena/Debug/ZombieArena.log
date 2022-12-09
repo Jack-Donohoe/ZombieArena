@@ -1,1 +1,132 @@
-﻿  ZombieArena.vcxproj -> C:\Users\jackd\source\repos\ZombieArena\Debug\ZombieArena.exe
+﻿  createBackground.cpp
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(30,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(30,16): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(32,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(32,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(34,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(34,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(36,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(36,17): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(53,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(54,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(55,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\createBackground.cpp(56,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  player.cpp
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(9,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(10,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(24,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(25,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(45,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(46,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(134,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(138,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(141,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(145,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(149,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(158,31): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\player.cpp(164,36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  ZombieArena.cpp
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\ZombieArena.cpp(22,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\ZombieArena.cpp(23,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\ZombieArena.cpp(24,56): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\ZombieArena.cpp(24,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  zombieHorde.cpp
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\zombieHorde.cpp(29,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\zombieHorde.cpp(30,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\zombieHorde.cpp(35,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\zombieHorde.cpp(36,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\zombieHorde.cpp(41,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\zombieHorde.cpp(42,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\zombieHorde.cpp(47,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\zombieHorde.cpp(48,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  ZombieArena.vcxproj -> C:\Users\jackd\OneDrive\Documents\College\Semester 5\ZombieArena-main\ZombieArena-main\ZombieArena\Debug\ZombieArena.exe

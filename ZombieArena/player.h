@@ -2,12 +2,11 @@
 #define player_hpp
 
 #include <SFML/Graphics.hpp>
-#include <math.h> /*atan2*/
 
 using namespace sf;
 
-class Player
-{
+class Player {
+
 private:
 	const float START_SPEED = 200;
 	const float START_HEALTH = 100;
@@ -26,8 +25,8 @@ private:
 
 	// How big is the current arena?
 	IntRect m_Arena;
-	
-	// How big is each tile of the arena
+
+	// How big is each tile of the arena?
 	int m_TileSize;
 
 	// Which directions is the player currently moving in?
@@ -53,12 +52,13 @@ public:
 
 	void spawn(IntRect arena, Vector2f resolution, int tileSize);
 
-	// Called at the end of the game
+	// Called at end of game
 	void resetPlayerStats();
 	// Handle the player getting hit by a zombie
 	bool hit(Time timeHit);
 	// How long since player hit?
 	Time getLastHitTime();
+
 	// Where is the player?
 	FloatRect getPosition();
 	// Where is the centre of the player?
@@ -70,6 +70,7 @@ public:
 	Sprite getSprite();
 	// How much health has the player currently got?
 	int getHealth();
+
 	// Move the player
 	void moveLeft();
 	void moveRight();
@@ -85,14 +86,14 @@ public:
 	// Called every frame
 	void update(float elapsedTime, Vector2i mousePosition);
 
-	// Give player a speed boost - used for levelling up
+	// Give player a speed boost – used for levelling up
 	void upgradeSpeed();
 
-	// Increase max health - used for levelling up
+	// Increase max health – used for levelling up
 	void upgradeHealth();
 
-	// Increase health - collision with med kit
+	// Increase health – collision with med kit
 	void increaseHealthLevel(int amount);
-};
 
-#endif // /* player_hpp */
+};
+#endif /* player_hpp */
